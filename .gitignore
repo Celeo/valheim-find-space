@@ -1,0 +1,6 @@
+.vs
+Libs/
+FindSpacePlugin/bin
+FindSpacePlugin/obj
+Dist/
+FindSpacePlugin.zip
