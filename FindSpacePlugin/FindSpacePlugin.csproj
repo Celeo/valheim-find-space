@@ -74,6 +74,7 @@ rmdir /s /q "$(SolutionDir)FindSpacePlugin.zip" 2&gt;nul
 mkdir "$(SolutionDir)Dist"
 copy "$(TargetPath)" "$(SolutionDir)Dist\FindPlugin.dll"
 copy "$(ProjectDir)manifest.json" "$(SolutionDir)Dist\manifest.json"
+copy "$(ProjectDir)icon.png" "$(SolutionDir)Dist\icon.png"
 cd $(SolutionDir)Dist
 "C:\Program Files\7-Zip\7z.exe" a ../FindSpacePlugin.zip *</PostBuildEvent>
   </PropertyGroup>
