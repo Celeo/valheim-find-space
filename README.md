@@ -2,6 +2,8 @@
 
 A plugin for [Valheim](https://www.valheimgame.com/) that helps find chests with open slots.
 
+Heavily influenced by [Chest Search](https://valheim.thunderstore.io/package/QuinnWilton/Chest_Search/).
+
 ## Building
 
 You'll need Visual Studio.
